@@ -1,0 +1,135 @@
+/*-----------products-------------*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.row-2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+select{
+    border: 1px solid #e83bff;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #e83bff;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;  
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #ff523b;
+    color: #ffff;
+}
+.single-product{
+    margin-top: 80px 0;
+}
+.single-product .col-2 img{
+    padding: 0;
+}
+.single-product .col-2{
+    padding: 20px;
+    text-align: left;
+}
+
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold; 
+
+}
+
+.single-product input{
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #e83bff;
+}
+input:focus{
+    outline: none;
+}
+.single-product .fa{
+    color: #e83bff;
+    margin-left: 10px;
+}
+.small-img-row{
+    display:flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+}
+.single-product .col-2 p{
+    margin-left: 0px;
+}
+.single-product .col-2 h1{
+    margin-left: 0px;
+}
+
+.footer1{
+    background: #e83bff;
+    color:#050505;
+    font-size: 14px;
+    padding: 50px;
+    
+
+ }
+ .footer1 p{
+    color: #050505;
+ }
+.footer1 h3{
+    color:#fff;
+    margin-bottom:20px;
+}.footer1-col-1, .footer-col-2,.footer-col-3 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer1-col-1{
+  flex-basis: 30%; 
+}
+.footer1-col-2{
+    flex:1;
+    text-align: center; 
+  }
+  .footer1-col-2 img{
+    width: 180px; 
+    margin-bottom: 20px;
+  }
+  .footer1-col-3{
+    flex-basis: 12%;
+    text-align: center;
+  } 
+  .footer1-col-2 img{
+    width: 180px; 
+    margin-bottom: 20px;
+
+  }
+  .footer1 {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
